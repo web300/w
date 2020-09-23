@@ -97,6 +97,3 @@ zbp.plugin.on("comment.got", "tx_freecms", function (logid, page) {
 zbp.plugin.on("comment.post.success", "tx_freecms", function () {
     $("#cancel-reply").click();
 });
-if(window.console && window.console.log){
-    console.log('\n %c \u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0077\u0077\u0077\u002e\u0074\u0078\u0063\u0073\u0074\u0078\u002e\u0063\u006e\u002f  %c \u5929\u5174\u5de5\u4f5c\u5ba4\u4f5c\u54c1 \n', 'color: #fadfa3; background: #030307; padding:3px 0;', 'background: #fadfa3; padding:3px 0;');
-}
